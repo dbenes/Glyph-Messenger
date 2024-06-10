@@ -1,4 +1,4 @@
-This is a prototype instant messenger application for clinicians, built with Python and designed for easy integration into patient record system APIs following the OAuth 2.0 standard.
+This is a prototype instant messenger application for clinicians, built with Python and designed for easy integration into patient record system APIs following the OAuth 2.0 protocol standard.
 
 The main.py application sends a GET request to the Authentication Server for a valid access token, which can then be used to retrieve a list of contactable staff members from the Resource Server. Access tokens can also be used to call specific slices of patient data from the Patient Record Server into individual chats. Access tokens are forged with expiration timers, and the main.py will request fresh access tokens throughout its operation.
 
